@@ -1,0 +1,9 @@
+This is a 3D game/demo of an OpenGL graphics engine. Some parts of the code were taken from various sources and cited as appropriate.
+
+It requires ImageMagick, OpenGL, GLUT, and a unix variant (it might work elsewhere, haven't tried).
+
+To run:
+
+1. Generate skybox textures: read skybox/readme.txt for instructions
+2. Compile: gcc cube-eater.c cube.c simulation.c skybox.c spaceship.c vecops.c -lglut -o cube
+3. Run ./cube !
